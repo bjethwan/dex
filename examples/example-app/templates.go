@@ -7,7 +7,8 @@ import (
 )
 
 var indexTmpl = template.Must(template.New("index.html").Parse(`<html>
-  <body>
+	<body>
+	<h1 style="color:blue;"> Bipin: This page can be customized. </h1>
     <form action="/login" method="post">
        <p>
          Authenticate for:<input type="text" name="cross_client" placeholder="list of client-ids">
